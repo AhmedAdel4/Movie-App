@@ -4,7 +4,11 @@
 <div class="movie-info border-b border-gray-800">
     <div class="container mx-auto px-4 py-16 flex flex-col md:flex-row">
         <div class="flex-none">
-            <img src="{{ 'https://image.tmdb.org/t/p/w500/'.$movie['poster_path'] }}" alt="poster" class="w-64 lg:w-96">
+            @if ($movie['poster_path'])
+                <img src="{{ 'https://image.tmdb.org/t/p/w500/'.$movie['poster_path'] }}" alt="poster" class="w-64 lg:w-96">
+            @else
+                <img src="https://via.placeholder.com/150" alt="poster" class="w-64 lg:w-96">
+            @endif
         </div>
         <div class="md:ml-24">
             <h2 class="text-4xl mt-4 md:mt-0 font-semibold">{{ $movie['title'] }}</h2>
