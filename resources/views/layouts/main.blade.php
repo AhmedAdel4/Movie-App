@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link rel="icon" href="/img/780122-200.png" sizes="16x16" type="image/png">
+    <link rel="icon" href="/img/png-clipart-red-and-white-film-icon-area-text-brand-sign-apps-google-movies-text-rectangle.png" sizes="16x16" type="image/png">
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
     @livewireStyles
     <title>Movie App</title>
 </head>
