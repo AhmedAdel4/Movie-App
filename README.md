@@ -4,6 +4,9 @@
 
 A Movie App using Laravel, Tailwind CSS and The Movie DB REST API. I go over the different architecture options and the different popular technologies around the Laravel/Vue community. I'll be making use of several Laravel 7 features like the HTTP Client and Blade Components. I then style my application with the latest version of Tailwind CSS, using new features like CSS Grid and CSS Transitions.
 
+# Live demo
+<a href="https://desolate-beach-21289.herokuapp.com/">Movie App</a>
+
 # Installation
 
 1. Clone GitHub repo for this project locally
