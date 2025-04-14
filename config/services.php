@@ -30,7 +30,7 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
     'tmdp' => [
-        'token' => env('TMPD_TOKEN'),
+      'token' => env('TMPD_TOKEN','eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4YTkwZmU5ZjM5NWYxZjk2ZTA1MGNiYzUzM2M5MGM4OCIsIm5iZiI6MTY4MjY2NDE3OC4yOCwic3ViIjoiNjQ0YjZhZjI1MWE2NGUwOGQ2ZGQyYjc1Iiwic2NvcGVzIjpbImFwaV9yZWFkIl0sInZlcnNpb24iOjF9.WDI4HremoiDaCQo2QnaG2X95i0t2cS63BCSVr9DPL5E'),
     ],
 
 ];
